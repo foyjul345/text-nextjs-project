@@ -11,8 +11,11 @@ const ArticleCardPrimary = ({article}:ArticleCardPrimaryProps) => {
         <article>
             <figure className='mb-4'>
                 <Link href={`/articles/${article._id}`}>
-                <Image src={article.image} alt={article.title} width={700} height={400}
-                    className='w-full h-auto object-cover rounded-lg' loading='lazy'/>
+                <Image src={article.image} 
+                alt={article.title} 
+                width={700} 
+                height={400}
+                className='w-full h-auto object-cover rounded-lg' loading='lazy'/>
                 </Link>
             </figure>
             <h3 className='text-[16px] font-bold mb-3 leading-tight'>

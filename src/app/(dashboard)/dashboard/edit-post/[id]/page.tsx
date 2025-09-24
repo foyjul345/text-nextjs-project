@@ -4,6 +4,7 @@ import PostForm, { PostFormType } from '@/components/form/PostForm';
 import { uploadImageToCloudinary } from '@/lib/uploadImageToCloudinary';
 import { useParams, useRouter } from 'next/navigation';
 import React, { useEffect, useState } from 'react';
+
 const EditPage = () => {
     const router = useRouter()
     const { id } = useParams();

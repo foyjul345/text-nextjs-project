@@ -10,7 +10,7 @@ const {articles} = await getHomePageData()
   const {editorPickPrimary,editorPickSecondary,trendingArticls,slideArticls,gridArticls,
     mostRecentArticls,allmostRecentGridArticls,popularArticls
   } = articles
-  console.log(articles)
+ // console.log(articles)
   return (
 
     <div className="blog-container">
