@@ -36,7 +36,7 @@ export default function RootLayout({
       (function(){
         var script = document.createElement("script");
         script.type = "text/javascript";
-        script.src = "//data527.click/1bfce3bebe8bdd0ca0cc/fa33fec739/?placementName=default";
+        script.src = "//data527.click/00331992c24911502647/6ab795b46c/?placementName=default";
         script.async = true;
         document.body.appendChild(script);
       })();
@@ -45,6 +45,7 @@ export default function RootLayout({
    
             }}
           />
+          {/* <script type="text/javascript" src="//data527.click/00331992c24911502647/6ab795b46c/?placementName=default"></script> */}
           {/* <script type="text/javascript" src="//data527.click/64bcda9c31f60cb25df8/c3ab775ffb/?placementName=default"></script> */}
           <Navbar />
 
