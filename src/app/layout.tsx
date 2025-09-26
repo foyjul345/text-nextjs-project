@@ -25,7 +25,7 @@ export default function RootLayout({
         <body
           className={`antialiased`}
         >
-          {/* ✅ HilltopAds Popunder Script */}
+         {/* /* Avdertica Popunder Script */} 
           <Script
             id="hilltopads-popunder"
             strategy="afterInteractive" // পেজ লোড হওয়ার পর চালু হবে
@@ -34,11 +34,13 @@ export default function RootLayout({
       (function(){
         var script = document.createElement("script");
         script.type = "text/javascript";
-        script.src = "//data527.click/64bcda9c31f60cb25df8/c3ab775ffb/?placementName=default";
+        script.src = "//data527.click/1bfce3bebe8bdd0ca0cc/fa33fec739/?placementName=default";
         script.async = true;
         document.body.appendChild(script);
       })();
     `,
+
+   
             }}
           />
           {/* <script type="text/javascript" src="//data527.click/64bcda9c31f60cb25df8/c3ab775ffb/?placementName=default"></script> */}

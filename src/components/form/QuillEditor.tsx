@@ -2,12 +2,15 @@
 import React, { useEffect, useRef } from 'react';
 import "quill/dist/quill.snow.css"
 import type QuilType from "quill"
+
 interface QuillEditorProps {
     value: string;
     onChange: (value: string) => void;
     placeholder: string
 }
+
 const QuillEditor = ({ value, onChange, placeholder }: QuillEditorProps) => {
+
     const editorRef = useRef<HTMLDivElement>(null)
     const quillRef = useRef<QuilType | null>(null)
 
