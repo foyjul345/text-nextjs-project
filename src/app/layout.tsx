@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import { Analytics } from "@vercel/analytics/next"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import "./globals.css";
 import { ClerkProvider } from "@clerk/nextjs";
 import Navbar from "@/components/ui/Navbar";
@@ -51,6 +53,11 @@ export default function RootLayout({
           </main>
           <Footer />
           <BackToTopBottom />
+          {/* Vercel Analytics */}
+          <Analytics />
+
+          {/* Optional: Speed Insights for testing (doesn't render UI) */}
+          <SpeedInsights />
         </body>
       </html>
     </ClerkProvider>
