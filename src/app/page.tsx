@@ -31,12 +31,12 @@ const {articles} = await getHomePageData()
       }
 
       {
-        mostRecentArticls.length >0 && allmostRecentGridArticls.length>0 && popularArticls.length > 0 &&
+        mostRecentArticls.length > 0 && allmostRecentGridArticls.length> 0 && popularArticls.length > 0 &&
         (
           <MostRecentSection  mostRecentArticls={mostRecentArticls} 
           allmostRecentGridArticls={allmostRecentGridArticls}
           popularArticls={popularArticls}
-          />
+           />
         )
       }
     </div>

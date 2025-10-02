@@ -27,7 +27,7 @@ export default function RootLayout({
         <body
           className={`antialiased`}
         >
-         {/* /* Avdertica Popunder Script */} 
+          {/* /* Avdertica Popunder Script */}
           <Script
             id="hilltopads-popunder"
             strategy="afterInteractive" // পেজ লোড হওয়ার পর চালু হবে
@@ -36,13 +36,14 @@ export default function RootLayout({
       (function(){
         var script = document.createElement("script");
         script.type = "text/javascript";
-        script.src = "//data527.click/00331992c24911502647/6ab795b46c/?placementName=default";
+        script.src = "//pl27768747.revenuecpmgate.com/51/9b/ae/519bae6fad440213b973ff928e350760.js";
         script.async = true;
         document.body.appendChild(script);
       })();
     `,
 
-   
+    // <script type='text/javascript' src='//pl27768747.revenuecpmgate.com/51/9b/ae/519bae6fad440213b973ff928e350760.js'></script>
+
             }}
           />
           {/* <script type="text/javascript" src="//data527.click/00331992c24911502647/6ab795b46c/?placementName=default"></script> */}
