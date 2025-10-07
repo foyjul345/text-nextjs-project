@@ -41,14 +41,21 @@ export default function RootLayout({
         document.body.appendChild(script);
       })();
     `,
+            }} />
 
-    // <script type='text/javascript' src='//pl27768747.revenuecpmgate.com/51/9b/ae/519bae6fad440213b973ff928e350760.js'></script>
+          {/* ✅ Social Bar */}
 
-            }}
-          />
-          {/* <script type="text/javascript" src="//data527.click/00331992c24911502647/6ab795b46c/?placementName=default"></script> */}
-          {/* <script type="text/javascript" src="//data527.click/64bcda9c31f60cb25df8/c3ab775ffb/?placementName=default"></script> */}
+
+          {/* <script type='text/javascript' src='//madeupvigourpoll.com/82/ed/6b/82ed6bcad8801f9523d775023bf07cce.js'></script> */}
           <Navbar />
+
+          {/* ✅ Adsterra Native Banner */}
+          <div id="container-713370ad3840a8be04034b9fe2003723"></div>
+          <Script
+            id="adsterra-nativebanner"
+            strategy="afterInteractive"
+            src="//madeupvigourpoll.com/713370ad3840a8be04034b9fe2003723/invoke.js"
+          />
 
           <main className="mt-8">
             {children}
@@ -60,6 +67,12 @@ export default function RootLayout({
 
           {/* Optional: Speed Insights for testing (doesn't render UI) */}
           <SpeedInsights />
+          <Script
+            id="adsterra-socialbar"
+            strategy="afterInteractive"
+            src="//madeupvigourpoll.com/82/ed/6b/82ed6bcad8801f9523d775023bf07cce.js"
+          />
+
         </body>
       </html>
     </ClerkProvider>
