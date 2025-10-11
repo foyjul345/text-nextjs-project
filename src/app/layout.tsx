@@ -26,21 +26,7 @@ export default function RootLayout({
         <body
           className={`antialiased`}
         >
-          {/* /* Avdertica Popunder Script */}
-          {/* <Script
-            id="hilltopads-popunder"
-            strategy="afterInteractive" // পেজ লোড হওয়ার পর চালু হবে
-            dangerouslySetInnerHTML={{
-              __html: `
-      (function(){
-        var script = document.createElement("script");
-        script.type = "text/javascript";
-        script.src = "//pl27768747.revenuecpmgate.com/51/9b/ae/519bae6fad440213b973ff928e350760.js";
-        script.async = true;
-        document.body.appendChild(script);
-      })();
-    `,
-            }} /> */}
+         
 
           {/* ✅ Social Bar */}
 
